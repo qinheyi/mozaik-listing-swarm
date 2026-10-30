@@ -1,0 +1,70 @@
+[
+  {
+    "sku": "ESP-01",
+    "name": "Nomad Hand Espresso Maker",
+    "brand": "Nomad Brew Co.",
+    "category": "Kitchen > Coffee > Portable Espresso Makers",
+    "unit_cost_usd": 26.0,
+    "target_margin": 0.35,
+    "specs": {
+      "pressure": "up to 18 bar (manual piston)",
+      "water_tank": "80 ml",
+      "weight": "390 g",
+      "materials": "BPA-free Tritan body, stainless steel brew chamber",
+      "compatible_with": "ground coffee and NS-compatible capsules (adapter included)",
+      "power": "no batteries or electricity required",
+      "in_the_box": "maker, capsule adapter, scoop, cleaning brush, travel pouch",
+      "warranty": "2 years"
+    },
+    "marketing_claims": [
+      "The best espresso in the world, anywhere",
+      "100% leak-proof",
+      "Barista-quality crema in 60 seconds"
+    ]
+  },
+  {
+    "sku": "SOCK-02",
+    "name": "Alpine Merino Hiking Socks (3-Pack)",
+    "brand": "Ridgeline Outfitters",
+    "category": "Sports & Outdoors > Hiking > Socks",
+    "unit_cost_usd": 14.0,
+    "target_margin": 0.4,
+    "specs": {
+      "material": "68% merino wool, 29% nylon, 3% elastane",
+      "cushioning": "medium cushion under foot, heel and toe",
+      "height": "crew (about 23 cm)",
+      "sizes": "S (EU 35-38), M (EU 39-42), L (EU 43-46), XL (EU 47-49)",
+      "features": "reinforced heel and toe, arch support band, flat-knit toe seam",
+      "care": "machine wash warm, tumble dry low",
+      "pack": "3 pairs (charcoal, olive, navy)"
+    },
+    "marketing_claims": [
+      "Never smell, guaranteed",
+      "Cures blisters for good",
+      "Warmer than any other sock on the market"
+    ]
+  },
+  {
+    "sku": "LAMP-03",
+    "name": "Lumen Pro Smart LED Desk Lamp",
+    "brand": "Lumen Labs",
+    "category": "Home & Office > Lighting > Desk Lamps",
+    "unit_cost_usd": 21.0,
+    "target_margin": 0.38,
+    "specs": {
+      "brightness": "up to 1000 lumens, 5 brightness levels",
+      "color_temperature": "2700K-6500K, 5 modes",
+      "cri": "CRI 95+",
+      "flicker": "flicker-free DC dimming",
+      "extras": "15W Qi wireless charging pad, USB-C port",
+      "control": "touch panel + app (Wi-Fi 2.4 GHz), works with Alexa and Google Home",
+      "arm": "3-joint adjustable arm, 180 degree rotating head",
+      "warranty": "3 years"
+    },
+    "marketing_claims": [
+      "#1 rated desk lamp",
+      "Eliminates eye strain completely",
+      "Better than BenQ ScreenBar"
+    ]
+  }
+]

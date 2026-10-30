@@ -1,0 +1,116 @@
+
+🧩 ListingSwarm on Mozaik — MOCK (scripted inference runner, no API key)
+   SKUs: ESP-01, SOCK-02, LAMP-03   max compliance revisions: 2
+
+   0.0s Merchant   📝 brief submitted for ESP-01  (loops in flight: 0)
+   0.0s Researcher ▶ starts [ESP-01 research]  (loops in flight: 1)
+   0.0s Pricing    ▶ starts [ESP-01 pricing]  (loops in flight: 2)
+   0.0s SEO        ▶ starts [ESP-01 seo]  (loops in flight: 3)
+   0.0s Merchant   📝 brief submitted for SOCK-02  (loops in flight: 3)
+   0.0s Researcher ▶ starts [SOCK-02 research]  (loops in flight: 4)
+   0.0s Pricing    ▶ starts [SOCK-02 pricing]  (loops in flight: 5)
+   0.0s SEO        ▶ starts [SOCK-02 seo]  (loops in flight: 6)
+   0.0s Merchant   📝 brief submitted for LAMP-03  (loops in flight: 6)
+   0.0s Researcher ▶ starts [LAMP-03 research]  (loops in flight: 7)
+   0.0s Pricing    ▶ starts [LAMP-03 pricing]  (loops in flight: 8)
+   0.0s SEO        ▶ starts [LAMP-03 seo]  (loops in flight: 9)
+   0.4s Researcher 🔧 [ESP-01 research] get_product_spec({"sku":"ESP-01"})  (loops in flight: 9)
+   0.6s SEO        🔧 [SOCK-02 seo] keyword_research({"sku":"SOCK-02"})  (loops in flight: 9)
+   0.7s Researcher 🔧 [SOCK-02 research] get_product_spec({"sku":"SOCK-02"})  (loops in flight: 9)
+   0.9s Pricing    🔧 [SOCK-02 pricing] get_competitor_prices({"sku":"SOCK-02"})  (loops in flight: 9)
+   1.0s Pricing    🔧 [LAMP-03 pricing] get_competitor_prices({"sku":"LAMP-03"})  (loops in flight: 9)
+   1.0s Pricing    🔧 [ESP-01 pricing] get_competitor_prices({"sku":"ESP-01"})  (loops in flight: 9)
+   1.0s SEO        🔧 [LAMP-03 seo] keyword_research({"sku":"LAMP-03"})  (loops in flight: 9)
+   1.1s Researcher 🔧 [ESP-01 research] review_stats({"sku":"ESP-01"})  (loops in flight: 9)
+   1.2s SEO        ✅ seo ready for SOCK-02  (loops in flight: 9)
+   1.3s SEO        🔧 [ESP-01 seo] keyword_research({"sku":"ESP-01"})  (loops in flight: 8)
+   1.6s Researcher 🔧 [LAMP-03 research] get_product_spec({"sku":"LAMP-03"})  (loops in flight: 8)
+   1.7s Pricing    🔧 [ESP-01 pricing] simulate_price({"sku":"ESP-01","price_usd":55.99})  (loops in flight: 8)
+   1.7s SEO        ✅ seo ready for LAMP-03  (loops in flight: 8)
+   1.7s Researcher 🔧 [ESP-01 research] search_knowledge_base({"sku":"ESP-01","query":"quality compact easy durable problem"})  (loops in flight: 7)
+   2.0s Pricing    🔧 [LAMP-03 pricing] simulate_price({"sku":"LAMP-03","price_usd":44.99})  (loops in flight: 7)
+   2.1s SEO        ✅ seo ready for ESP-01  (loops in flight: 7)
+   2.1s Researcher 🔧 [SOCK-02 research] review_stats({"sku":"SOCK-02"})  (loops in flight: 6)
+   2.1s Researcher 🔧 [LAMP-03 research] review_stats({"sku":"LAMP-03"})  (loops in flight: 6)
+   2.3s Pricing    🔧 [SOCK-02 pricing] simulate_price({"sku":"SOCK-02","price_usd":26.99})  (loops in flight: 6)
+   2.6s Researcher 🔧 [LAMP-03 research] search_knowledge_base({"sku":"LAMP-03","query":"quality compact easy durable problem"})  (loops in flight: 6)
+   2.8s Researcher ✅ research ready for ESP-01  (loops in flight: 6)
+   2.8s Copywriter ▶ starts [ESP-01 draft]  (loops in flight: 7)
+   3.1s Pricing    ✅ pricing ready for ESP-01  (loops in flight: 6)
+   3.2s Researcher ✅ research ready for LAMP-03  (loops in flight: 5)
+   3.2s Copywriter ▶ starts [LAMP-03 draft]  (loops in flight: 6)
+   3.4s Pricing    ✅ pricing ready for LAMP-03  (loops in flight: 5)
+   3.4s Researcher 🔧 [SOCK-02 research] search_knowledge_base({"sku":"SOCK-02","query":"quality compact easy durable problem"})  (loops in flight: 4)
+   3.4s Pricing    🔧 [SOCK-02 pricing] simulate_price({"sku":"SOCK-02","price_usd":32.49})  (loops in flight: 4)
+   4.1s Copywriter ✅ copy ready for LAMP-03  (loops in flight: 4)
+   4.1s Compliance ▶ starts [LAMP-03 review#0]  (loops in flight: 5)
+   4.2s Copywriter ✅ copy ready for ESP-01  (loops in flight: 4)
+   4.2s Compliance ▶ starts [ESP-01 review#0]  (loops in flight: 5)
+   4.3s Pricing    ✅ pricing ready for SOCK-02  (loops in flight: 4)
+   4.4s Researcher ✅ research ready for SOCK-02  (loops in flight: 3)
+   4.4s Copywriter ▶ starts [SOCK-02 draft]  (loops in flight: 4)
+   4.6s Compliance 🔧 [ESP-01 review#0] lint_listing({"listing_json":"{\"title\":\"Nomad Brew Co. Nomad Hand Espresso Maker)  (loops in flight: 3)
+   4.8s Copywriter ✅ copy ready for SOCK-02  (loops in flight: 3)
+   4.8s Compliance ▶ starts [SOCK-02 review#0]  (loops in flight: 4)
+   4.8s Compliance 🔧 [LAMP-03 review#0] lint_listing({"listing_json":"{\"title\":\"Lumen Labs Lumen Pro Smart LED Desk Lamp)  (loops in flight: 3)
+   6.1s Compliance 🔧 [LAMP-03 review#0] search_policies({"query":"Unverifiable superlative/ranking Medical or health claim"})  (loops in flight: 3)
+   6.2s Compliance 🔧 [ESP-01 review#0] search_policies({"query":"Unverifiable superlative/ranking Absolute guarantee"})  (loops in flight: 3)
+   6.3s Compliance 🔧 [SOCK-02 review#0] lint_listing({"listing_json":"{\"title\":\"Ridgeline Outfitters Alpine Merino Hikin)  (loops in flight: 3)
+   7.2s Compliance 🟠 REVISE LAMP-03 round 0: [P1] bullet_1: Unverifiable superlative/ranking – rewrite "#1 rated desk lamp: Brightness: up" | [P2] description: Medical or health claim – rewrite "ible flick  (loops in flight: 3)
+   7.2s Copywriter ▶ starts [LAMP-03 revise#1]  (loops in flight: 4)
+   7.4s Compliance 🔧 [SOCK-02 review#0] search_policies({"query":"Medical or health claim Absolute guarantee"})  (loops in flight: 3)
+   7.6s Compliance 🟠 REVISE ESP-01 round 0: [P1] bullet_1: Unverifiable superlative/ranking – rewrite "The best espresso in the world, anywher" | [P3] description: Absolute guarantee – rewrite "y backpack  (loops in flight: 3)
+   7.6s Copywriter ▶ starts [ESP-01 revise#1]  (loops in flight: 4)
+   8.0s Copywriter ✅ copy (rev 1) ready for LAMP-03  (loops in flight: 3)
+   8.0s Compliance ▶ starts [LAMP-03 review#1]  (loops in flight: 4)
+   8.3s Compliance 🟠 REVISE SOCK-02 round 0: [P2] description: Medical or health claim – rewrite "erino is the real deal." Cures blisters for good. Good to kn" | [P3] bullet_1: Absolute guarantee – rewrite  (loops in flight: 3)
+   8.3s Copywriter ▶ starts [SOCK-02 revise#1]  (loops in flight: 4)
+   8.3s Copywriter ✅ copy (rev 1) ready for ESP-01  (loops in flight: 3)
+   8.3s Compliance ▶ starts [ESP-01 review#1]  (loops in flight: 4)
+   8.9s Compliance 🔧 [LAMP-03 review#1] lint_listing({"listing_json":"{\"title\":\"Lumen Labs Lumen Pro Smart LED Desk Lamp)  (loops in flight: 3)
+   9.1s Compliance 🔧 [ESP-01 review#1] lint_listing({"listing_json":"{\"title\":\"Nomad Brew Co. Nomad Hand Espresso Maker)  (loops in flight: 3)
+   9.3s Compliance 🟢 APPROVE LAMP-03 round 1  (loops in flight: 3)
+   9.3s Publisher  📦 published LAMP-03 -> out/listings/LAMP-03.md  (loops in flight: 3)
+   9.4s Copywriter ✅ copy (rev 1) ready for SOCK-02  (loops in flight: 2)
+   9.4s Compliance ▶ starts [SOCK-02 review#1]  (loops in flight: 3)
+  10.0s Compliance 🔧 [SOCK-02 review#1] lint_listing({"listing_json":"{\"title\":\"Ridgeline Outfitters Alpine Merino Hikin)  (loops in flight: 2)
+  10.2s Compliance 🟢 APPROVE ESP-01 round 1  (loops in flight: 2)
+  10.2s Publisher  📦 published ESP-01 -> out/listings/ESP-01.md  (loops in flight: 2)
+  11.0s Compliance 🟢 APPROVE SOCK-02 round 1  (loops in flight: 1)
+  11.0s Publisher  📦 published SOCK-02 -> out/listings/SOCK-02.md  (loops in flight: 1)
+
+──────── Concurrency timeline (each bar = one Mozaik agent loop) ────────
+Researcher ESP-01  research  |████████████████                                            | 2.8s
+Pricing    ESP-01  pricing   |█████████████████                                           | 3.1s
+SEO        ESP-01  seo       |████████████                                                | 2.1s
+Researcher SOCK-02 research  |████████████████████████                                    | 4.3s
+Pricing    SOCK-02 pricing   |████████████████████████                                    | 4.3s
+SEO        SOCK-02 seo       |███████                                                     | 1.2s
+Researcher LAMP-03 research  |██████████████████                                          | 3.2s
+Pricing    LAMP-03 pricing   |███████████████████                                         | 3.4s
+SEO        LAMP-03 seo       |██████████                                                  | 1.7s
+Copywriter ESP-01  draft     |               █████████                                    | 1.4s
+Copywriter LAMP-03 draft     |                 ██████                                     | 1.0s
+Compliance LAMP-03 review#0  |                      ██████████████████                    | 3.1s
+Compliance ESP-01  review#0  |                       ███████████████████                  | 3.3s
+Copywriter SOCK-02 draft     |                       ████                                 | 0.4s
+Compliance SOCK-02 review#0  |                          ████████████████████              | 3.5s
+Copywriter LAMP-03 revise#1  |                                       █████                | 0.8s
+Copywriter ESP-01  revise#1  |                                         █████              | 0.7s
+Compliance LAMP-03 review#1  |                                           █████████        | 1.3s
+Copywriter SOCK-02 revise#1  |                                             ███████        | 1.2s
+Compliance ESP-01  review#1  |                                             ███████████    | 1.9s
+Compliance SOCK-02 review#1  |                                                   █████████| 1.5s
+
+mode                 : MOCK (scripted inference runner, no API key)
+SKUs                 : ESP-01, SOCK-02, LAMP-03
+agent loops          : 21  (model calls: 49, tool calls: 28, events: 296)
+peak concurrent loops: 9   peak concurrent model calls: 9
+wall-clock           : 11.0s   vs. sequential agent time 46.2s  →  4.2x parallelism
+
+ESP-01: published, price $55.99, compliance REVISE → APPROVE
+SOCK-02: published, price $32.49, compliance REVISE → APPROVE
+LAMP-03: published, price $44.99, compliance REVISE → APPROVE
+
+Listings: out/listings/*.md   Event log: out/events.jsonl   Report: out/run-report.md
+

@@ -1,0 +1,124 @@
+
+🧩 ListingSwarm on Mozaik — LIVE MiniMax-M2.7 @ https://api.minimaxi.com/v1
+   SKUs: ESP-01, SOCK-02, LAMP-03   max compliance revisions: 2
+
+   0.0s Merchant   📝 brief submitted for ESP-01  (loops in flight: 0)
+   0.0s Researcher ▶ starts [ESP-01 research]  (loops in flight: 1)
+   0.0s Pricing    ▶ starts [ESP-01 pricing]  (loops in flight: 2)
+   0.0s SEO        ▶ starts [ESP-01 seo]  (loops in flight: 3)
+   0.0s Merchant   📝 brief submitted for SOCK-02  (loops in flight: 3)
+   0.0s Researcher ▶ starts [SOCK-02 research]  (loops in flight: 4)
+   0.0s Pricing    ▶ starts [SOCK-02 pricing]  (loops in flight: 5)
+   0.0s SEO        ▶ starts [SOCK-02 seo]  (loops in flight: 6)
+   0.0s Merchant   📝 brief submitted for LAMP-03  (loops in flight: 6)
+   0.0s Researcher ▶ starts [LAMP-03 research]  (loops in flight: 7)
+   0.0s Pricing    ▶ starts [LAMP-03 pricing]  (loops in flight: 8)
+   0.0s SEO        ▶ starts [LAMP-03 seo]  (loops in flight: 9)
+   2.0s Pricing    🔧 [SOCK-02 pricing] get_competitor_prices({"sku":"SOCK-02"})  (loops in flight: 9)
+   2.2s Pricing    🔧 [LAMP-03 pricing] get_competitor_prices({"sku":"LAMP-03"})  (loops in flight: 9)
+   2.2s SEO        🔧 [LAMP-03 seo] keyword_research({"sku":"LAMP-03"})  (loops in flight: 9)
+   2.2s Pricing    🔧 [ESP-01 pricing] get_competitor_prices({"sku":"ESP-01"})  (loops in flight: 9)
+   2.3s Researcher 🔧 [ESP-01 research] get_product_spec({"sku":"ESP-01"})  (loops in flight: 9)
+   2.5s SEO        🔧 [ESP-01 seo] keyword_research({"sku": "ESP-01"})  (loops in flight: 9)
+   2.7s Researcher 🔧 [LAMP-03 research] get_product_spec({"sku":"LAMP-03"})  (loops in flight: 9)
+   3.1s Researcher 🔧 [SOCK-02 research] get_product_spec({"sku": "SOCK-02"})  (loops in flight: 9)
+   3.1s SEO        🔧 [SOCK-02 seo] keyword_research({"sku":"SOCK-02"})  (loops in flight: 9)
+   3.8s Researcher 🔧 [ESP-01 research] review_stats({"sku":"ESP-01"})  (loops in flight: 9)
+   4.0s Pricing    🔧 [ESP-01 pricing] simulate_price({"sku":"ESP-01","price_usd":49.49})  (loops in flight: 9)
+   4.1s Researcher 🔧 [LAMP-03 research] review_stats({"sku":"LAMP-03"})  (loops in flight: 9)
+   4.4s SEO        ✅ seo ready for LAMP-03  (loops in flight: 9)
+   4.5s Pricing    🔧 [LAMP-03 pricing] simulate_price({"sku":"LAMP-03","price_usd":44.99})  (loops in flight: 8)
+   4.7s Researcher 🔧 [SOCK-02 research] review_stats({"sku": "SOCK-02"})  (loops in flight: 8)
+   4.8s SEO        ✅ seo ready for ESP-01  (loops in flight: 8)
+   5.5s Researcher 🔧 [ESP-01 research] search_knowledge_base({"sku":"ESP-01","query":"leak proof durability warranty portability ca)  (loops in flight: 7)
+   5.5s SEO        ✅ seo ready for SOCK-02  (loops in flight: 7)
+   5.6s Researcher 🔧 [LAMP-03 research] search_knowledge_base({"sku":"LAMP-03","query":"brightness lumens arm adjustability build qu)  (loops in flight: 6)
+   6.0s Pricing    🔧 [ESP-01 pricing] simulate_price({"sku":"ESP-01","price_usd":52.49})  (loops in flight: 6)
+   6.3s Pricing    🔧 [LAMP-03 pricing] simulate_price({"sku":"LAMP-03","price_usd":41.99})  (loops in flight: 6)
+   6.4s Researcher 🔧 [SOCK-02 research] search_knowledge_base({"sku": "SOCK-02", "query": "merino wool odor breathability warmth dur)  (loops in flight: 6)
+   6.8s Researcher 🔧 [ESP-01 research] search_knowledge_base({"sku":"ESP-01","query":"espresso quality crema taste value price clea)  (loops in flight: 6)
+   7.5s Pricing    🔧 [LAMP-03 pricing] simulate_price({"sku":"LAMP-03","price_usd":47.49})  (loops in flight: 6)
+   7.7s Pricing    🔧 [ESP-01 pricing] simulate_price({"sku":"ESP-01","price_usd":54.99})  (loops in flight: 6)
+   7.8s Researcher 🔧 [LAMP-03 research] search_knowledge_base({"sku":"LAMP-03","query":"wireless charging pad app setup wifi Alexa G)  (loops in flight: 6)
+   8.1s Researcher 🔧 [SOCK-02 research] search_knowledge_base({"sku": "SOCK-02", "query": "blisters fit sizing durability toe hole c)  (loops in flight: 6)
+   9.5s Researcher 🔧 [LAMP-03 research] search_knowledge_base({"sku":"LAMP-03","query":"eye strain flicker CRI color accuracy photo )  (loops in flight: 6)
+   9.9s Pricing    ✅ pricing ready for LAMP-03  (loops in flight: 6)
+  10.7s Pricing    ✅ pricing ready for ESP-01  (loops in flight: 5)
+  11.3s Pricing    🔧 [SOCK-02 pricing] simulate_price({"sku":"SOCK-02","price_usd":27.49})  (loops in flight: 4)
+  11.6s Researcher ✅ research ready for ESP-01  (loops in flight: 4)
+  11.6s Copywriter ▶ starts [ESP-01 draft]  (loops in flight: 5)
+  13.0s Pricing    🔧 [SOCK-02 pricing] simulate_price({"price_usd":32.99,"sku":"SOCK-02"})  (loops in flight: 4)
+  13.0s Copywriter 🔧 [ESP-01 draft] search_knowledge_base({"sku":"ESP-01","query":"portable espresso maker hand pump pressure cr)  (loops in flight: 4)
+  14.2s Researcher ✅ research ready for LAMP-03  (loops in flight: 4)
+  14.2s Copywriter ▶ starts [LAMP-03 draft]  (loops in flight: 5)
+  14.2s Pricing    🔧 [SOCK-02 pricing] simulate_price({"price_usd":29.99,"sku":"SOCK-02"})  (loops in flight: 4)
+  14.5s Researcher ✅ research ready for SOCK-02  (loops in flight: 4)
+  14.5s Copywriter ▶ starts [SOCK-02 draft]  (loops in flight: 5)
+  15.8s Pricing    🔧 [SOCK-02 pricing] simulate_price({"price_usd":32.49,"sku":"SOCK-02"})  (loops in flight: 4)
+  17.0s Copywriter 🔧 [LAMP-03 draft] search_knowledge_base({"sku":"LAMP-03","query":"touch panel sensitivity base size app setup )  (loops in flight: 4)
+  17.5s Copywriter ✅ copy ready for ESP-01  (loops in flight: 4)
+  17.5s Compliance ▶ starts [ESP-01 review#0]  (loops in flight: 5)
+  17.6s Pricing    🔧 [SOCK-02 pricing] simulate_price({"price_usd":31.49,"sku":"SOCK-02"})  (loops in flight: 4)
+  21.6s Compliance 🔧 [ESP-01 review#0] lint_listing({"listing_json": "{\"title\": \"Nomad Brew Co. Portable Espresso Maker)  (loops in flight: 4)
+  22.4s Copywriter ✅ copy ready for SOCK-02  (loops in flight: 4)
+  22.4s Compliance ▶ starts [SOCK-02 review#0]  (loops in flight: 5)
+  22.6s Copywriter ✅ copy ready for LAMP-03  (loops in flight: 4)
+  22.6s Compliance ▶ starts [LAMP-03 review#0]  (loops in flight: 5)
+  22.7s Pricing    🔧 [SOCK-02 pricing] simulate_price({"price_usd":31.99,"sku":"SOCK-02"})  (loops in flight: 4)
+  25.0s Compliance 🔧 [SOCK-02 review#0] lint_listing({"listing_json": "{\"title\": \"Ridgeline Outfitters Merino Wool Hikin)  (loops in flight: 4)
+  25.5s Compliance 🔧 [LAMP-03 review#0] lint_listing({"listing_json":"{\"title\": \"Lumen Labs Smart LED Desk Lamp - Dimmab)  (loops in flight: 4)
+  26.8s Pricing    ✅ pricing ready for SOCK-02  (loops in flight: 4)
+  27.2s Compliance 🔧 [ESP-01 review#0] search_policies({"query": "quantified time claims like under a minute cleanup substant)  (loops in flight: 3)
+  38.5s Compliance 🟠 REVISE SOCK-02 round 0: [P1] description: Unverifiable superlative/ranking ("ght and merino blend are best for cool conditions and may fe") | [P2] description: Medical or health claim   (loops in flight: 3)
+  38.5s Copywriter ▶ starts [SOCK-02 revise#1]  (loops in flight: 4)
+  39.3s Compliance 🟢 APPROVE LAMP-03 round 0  (loops in flight: 3)
+  39.3s Publisher  📦 published LAMP-03 -> out/listings/LAMP-03.md  (loops in flight: 3)
+  40.6s Compliance 🟢 APPROVE ESP-01 round 0  (loops in flight: 2)
+  40.6s Publisher  📦 published ESP-01 -> out/listings/ESP-01.md  (loops in flight: 2)
+  52.0s Copywriter ✅ copy (rev 1) ready for SOCK-02  (loops in flight: 1)
+  52.0s Compliance ▶ starts [SOCK-02 review#1]  (loops in flight: 2)
+  58.5s Compliance 🔧 [SOCK-02 review#1] lint_listing({"listing_json": "{\"title\": \"429 已达到 Token Plan 速率限制：请升级 Token Plan)  (loops in flight: 1)
+  60.3s Compliance 🔧 [SOCK-02 review#1] search_policies({"query": "listing requirements bullets description length claims subs)  (loops in flight: 1)
+  67.9s Compliance 🟠 REVISE SOCK-02 round 1: [P1 valid content] title/description: the draft contains an API error message ("429 已达到 Token Plan 速率限制...") instead of a listing — replace entirely with a prod  (loops in flight: 1)
+  67.9s Copywriter ▶ starts [SOCK-02 revise#2]  (loops in flight: 2)
+  71.8s Copywriter 🔧 [SOCK-02 revise#2] search_knowledge_base({"sku": "SOCK-02", "query": "merino blend material cushioning arch sup)  (loops in flight: 1)
+  78.8s Copywriter ✅ copy (rev 2) ready for SOCK-02  (loops in flight: 1)
+  78.8s Compliance ▶ starts [SOCK-02 review#2]  (loops in flight: 2)
+  81.9s Compliance 🔧 [SOCK-02 review#2] lint_listing({"listing_json":"{\"title\": \"Merino Wool Hiking Socks 3-Pack — 23 cm)  (loops in flight: 1)
+  83.7s Compliance 🔧 [SOCK-02 review#2] search_policies({"query":"citing customer reviews in bullets and description, subjecti)  (loops in flight: 1)
+  89.4s Compliance 🟢 APPROVE SOCK-02 round 2  (loops in flight: 1)
+  89.4s Publisher  📦 published SOCK-02 -> out/listings/SOCK-02.md  (loops in flight: 1)
+
+──────── Concurrency timeline (each bar = one Mozaik agent loop) ────────
+Researcher ESP-01  research  |████████                                                    | 11.6s
+Pricing    ESP-01  pricing   |████████                                                    | 10.7s
+SEO        ESP-01  seo       |████                                                        | 4.8s
+Researcher SOCK-02 research  |██████████                                                  | 14.5s
+Pricing    SOCK-02 pricing   |██████████████████                                          | 26.8s
+SEO        SOCK-02 seo       |████                                                        | 5.5s
+Researcher LAMP-03 research  |██████████                                                  | 14.2s
+Pricing    LAMP-03 pricing   |███████                                                     | 9.9s
+SEO        LAMP-03 seo       |███                                                         | 4.4s
+Copywriter ESP-01  draft     |       █████                                                | 5.9s
+Copywriter LAMP-03 draft     |         ███████                                            | 8.4s
+Copywriter SOCK-02 draft     |         ███████                                            | 7.9s
+Compliance ESP-01  review#0  |           █████████████████                                | 23.2s
+Compliance SOCK-02 review#0  |               ███████████                                  | 16.1s
+Compliance LAMP-03 review#0  |               ████████████                                 | 16.8s
+Copywriter SOCK-02 revise#1  |                         ██████████                         | 13.6s
+Compliance SOCK-02 review#1  |                                  ████████████              | 15.9s
+Copywriter SOCK-02 revise#2  |                                             ████████       | 10.8s
+Compliance SOCK-02 review#2  |                                                    ████████| 10.7s
+
+mode                 : LIVE MiniMax-M2.7 @ https://api.minimaxi.com/v1
+SKUs                 : ESP-01, SOCK-02, LAMP-03
+agent loops          : 19  (model calls: 61, tool calls: 42, events: 336)
+peak concurrent loops: 9   peak concurrent model calls: 9
+wall-clock           : 89.4s   vs. sequential agent time 231.6s  →  2.6x parallelism
+
+ESP-01: published, price $54.99, compliance APPROVE
+SOCK-02: published, price $31.49, compliance REVISE → REVISE → APPROVE
+LAMP-03: published, price $44.99, compliance APPROVE
+
+Listings: out/listings/*.md   Event log: out/events.jsonl   Report: out/run-report.md
+

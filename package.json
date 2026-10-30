@@ -1,0 +1,37 @@
+{
+  "name": "mozaik-listing-swarm",
+  "version": "1.0.0",
+  "description": "ListingSwarm: a concurrent multi-agent e-commerce listing studio built on Mozaik (@mozaik-ai/core). 5 event-driven agents research, price, optimise, write and compliance-check product listings in parallel.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "demo": "tsx src/index.ts --mock",
+    "live": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "keywords": [
+    "mozaik",
+    "multi-agent",
+    "ai-agents",
+    "llm",
+    "ecommerce",
+    "hackathon",
+    "jigjoy"
+  ],
+  "author": "qinheyi",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@mozaik-ai/core": "^4.2.0",
+    "dotenv": "^18.0.9",
+    "jsonrepair": "^3.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

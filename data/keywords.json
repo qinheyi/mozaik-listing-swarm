@@ -1,0 +1,20 @@
+[
+  {"sku":"ESP-01","keyword":"portable espresso maker","monthly_searches":74000,"competition":"high"},
+  {"sku":"ESP-01","keyword":"manual espresso maker","monthly_searches":22000,"competition":"medium"},
+  {"sku":"ESP-01","keyword":"travel coffee maker","monthly_searches":40000,"competition":"high"},
+  {"sku":"ESP-01","keyword":"camping espresso","monthly_searches":6600,"competition":"low"},
+  {"sku":"ESP-01","keyword":"hand pump espresso","monthly_searches":5400,"competition":"low"},
+  {"sku":"ESP-01","keyword":"nespresso compatible portable","monthly_searches":3600,"competition":"low"},
+  {"sku":"SOCK-02","keyword":"merino wool hiking socks","monthly_searches":49500,"competition":"high"},
+  {"sku":"SOCK-02","keyword":"hiking socks men","monthly_searches":33100,"competition":"high"},
+  {"sku":"SOCK-02","keyword":"cushioned crew socks","monthly_searches":12100,"competition":"medium"},
+  {"sku":"SOCK-02","keyword":"wool socks 3 pack","monthly_searches":8100,"competition":"low"},
+  {"sku":"SOCK-02","keyword":"odor resistant socks","monthly_searches":4400,"competition":"low"},
+  {"sku":"SOCK-02","keyword":"backpacking socks","monthly_searches":9900,"competition":"medium"},
+  {"sku":"LAMP-03","keyword":"led desk lamp","monthly_searches":90500,"competition":"high"},
+  {"sku":"LAMP-03","keyword":"desk lamp with wireless charger","monthly_searches":14800,"competition":"medium"},
+  {"sku":"LAMP-03","keyword":"smart desk lamp","monthly_searches":12100,"competition":"medium"},
+  {"sku":"LAMP-03","keyword":"high cri desk lamp","monthly_searches":2900,"competition":"low"},
+  {"sku":"LAMP-03","keyword":"flicker free lamp","monthly_searches":3600,"competition":"low"},
+  {"sku":"LAMP-03","keyword":"dimmable desk lamp","monthly_searches":27100,"competition":"medium"}
+]

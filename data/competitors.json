@@ -1,0 +1,14 @@
+[
+  {"sku":"ESP-01","competitor":"Wacaco Nanopresso","price_usd":69.9,"rating":4.5,"reviews":12000},
+  {"sku":"ESP-01","competitor":"Staresso SP-200","price_usd":49.99,"rating":4.2,"reviews":3100},
+  {"sku":"ESP-01","competitor":"Outin Nano (electric)","price_usd":129.0,"rating":4.4,"reviews":5400},
+  {"sku":"ESP-01","competitor":"Generic hand espresso","price_usd":34.99,"rating":3.8,"reviews":900},
+  {"sku":"SOCK-02","competitor":"Darn Tough Hiker Crew (1 pair)","price_usd":27.0,"rating":4.8,"reviews":15000},
+  {"sku":"SOCK-02","competitor":"Smartwool Hike Classic (1 pair)","price_usd":24.0,"rating":4.6,"reviews":9800},
+  {"sku":"SOCK-02","competitor":"Amazon basics merino blend 3-pack","price_usd":29.99,"rating":4.1,"reviews":4200},
+  {"sku":"SOCK-02","competitor":"Danish Endurance merino 3-pack","price_usd":36.95,"rating":4.4,"reviews":7600},
+  {"sku":"LAMP-03","competitor":"BenQ e-Reading LED","price_usd":179.0,"rating":4.7,"reviews":6100},
+  {"sku":"LAMP-03","competitor":"TaoTronics LED desk lamp","price_usd":39.99,"rating":4.5,"reviews":21000},
+  {"sku":"LAMP-03","competitor":"Xiaomi Mi Smart LED Desk Lamp 1S","price_usd":49.99,"rating":4.4,"reviews":8800},
+  {"sku":"LAMP-03","competitor":"Lepro smart desk lamp w/ charger","price_usd":45.99,"rating":4.3,"reviews":2900}
+]
